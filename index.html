@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Ticket</title>
+</head>
+<body>
+<div class="container">
+<div class="container__route">
+    <label for="route">Выберите направление</label>
+    <select name="route" id="route" onchange="addTicketOption();">
+    </select>
+</div>
+<div class="container__time">
+    <label for="time">Выберите время отъезда</label>
+    <select name="time" id="time" onchange="addTicketOptionBack();">
+    </select>
+</div>
+<div class="container__timeBack">
+    <label for="timeBack">Выберите время обратной поездки</label>
+    <select name="time" id="timeBack">
+    </select>
+</div>
+<div class="container__ticket">
+    <label for="num" >Количество билетов</label>
+    <input id="num" type="number" min="1" value="1">
+    <button class="sum">Посчитать</button>
+</div>
+</div>
+<div class="show__tickets">
+</div>
+<script src="script.js"></script>
+</body>
+</html>

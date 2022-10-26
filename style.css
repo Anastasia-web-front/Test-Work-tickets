@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  
+  *, * :before, * :after {
+    box-sizing: border-box;
+  }
+  
+  :focus, :active {
+    outline: none;
+  }
+  
+  a:focus, a:active {
+    outline: none;
+  }
+  
+  nav, footer, header, aside {
+    display: block;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  input, button, textarea {
+    font-family: inherit;
+  }
+  
+  input::-ms-clear {
+    display: none;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+  
+  a, a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+ul li {
+    list-style: none;
+}
+  
+img {
+    vertical-align: top;
+}
+  
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+  
+html, body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+
+.container{
+    background-color: rgb(54, 54, 54, 0.88);
+    border-color: rgba(133, 125, 125, 0.88);   
+    border-radius: 5px;
+    width: 50%;
+    min-height: 1000px;
+    margin: 0 auto;
+    color: rgb(245, 244, 240);
+    padding: 100px 0;
+}
+
+.container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 25%;
+    background-color: rgb(54, 54, 54, 0.88);
+    border: 0.5px solid;
+    border-color: rgba(133, 125, 125, 0.88);   
+    width: 50%; 
+    padding:50px 0;
+}
+
+label{
+    margin-bottom: 30px;
+}
+
+
+button{
+    margin-top: 40px;
+    width: 130px;
+    height: 45px;
+    font-size: 19px;
+    border-radius: 25px;
+    box-shadow: 0px 4px 5px rgba(196, 196, 196, 0.88);
+}
+
+button:hover{
+    box-shadow: 0px 3px 1px rgba(196, 196, 196, 0.88);
+}
+
+a{
+  font-size: 19px;
+  color: rgb(39, 38, 38);
+}
+
+.show__tickets{
+    display: none;
+    background-color: rgb(54, 54, 54, 0.88);
+    border-color: rgba(133, 125, 125, 0.88);   
+    border-radius: 5px;
+    width: 600px;
+    min-height: 500px;
+    margin: 0 auto;
+    color: rgb(245, 244, 240);
+    padding: 30px 0;
+    font-size: 26px;
+    line-height: 35px;
+    text-align: center;
+    padding: 30px 20px;
+    letter-spacing: 6px;
+}
+
+.container .container__timeBack{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 25%;
+    background-color: rgba(61, 60, 60, 0.767);
+    border: 0.5px solid;
+    border-color: rgba(133, 125, 125, 0.88);   
+    width: 50%; 
+    padding:50px 0;
+}
